@@ -4,21 +4,21 @@
 class Codaurl < Formula
   desc "CodaURL CLI - AI Agent & Developer URL Monitoring Tool"
   homepage "https://codaurl.com"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.2/codaurl_darwin_arm64.tar.gz"
-      sha256 "5b6db385a315ae07d535415f085bfc46a1a491972a52baf3a562cdbc612b1ff6"
+      url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.3/codaurl_darwin_arm64.tar.gz"
+      sha256 "d7fd2c7bb83817c73f13ea205eb65c6078768fe36a586d74325424b0ae830e08"
     else
-      url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.2/codaurl_darwin_amd64.tar.gz"
-      sha256 "dd5d3912c530311f9cd8ece6d3449ab75ead3fbe59d42efc74e4c4ef4a908999"
+      url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.3/codaurl_darwin_amd64.tar.gz"
+      sha256 "8e554a6c9af576f35bc8b189a534c8428f8671bc63807023d6d09073fbfeb660"
     end
   end
 
   on_linux do
-    url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.2/codaurl_linux_amd64.tar.gz"
-    sha256 "f83381cc40c233287cf685ae5a0ea98617270c102f884d6200791f0724ee1653"
+    url "https://github.com/CodaSky/homebrew-tap/releases/download/v0.1.3/codaurl_linux_amd64.tar.gz"
+    sha256 "f678fcededa84aa1fae62fa9f4357a53bda14f8cc22939425860803543fce037"
   end
 
   def install
